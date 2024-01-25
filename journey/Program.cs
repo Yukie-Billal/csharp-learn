@@ -18,5 +18,22 @@ public class Program
 	bool isLife = true, kekkon = false, kanojo = false
 
 	Console.WriteLine(print_var)
+
+	int x = 2, y = 4. z = 9, result
+	
+	result = x + 1
+	Console.WriteLine(result)
+
+	result = y - 2
+	Console.WriteLine(result)
+	
+	result = z *  2
+	Console.WriteLine(result)
+
+	result = z / 3
+	Console.WriteLine(result)
+	
+	result = y % 2
+	Console.WriteLine(result)
     }
 }
