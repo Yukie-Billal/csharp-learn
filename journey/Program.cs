@@ -35,5 +35,30 @@ public class Program
 	
 	result = y % 2
 	Console.WriteLine(result)
+
+	x += 6 // 10
+	Console.WriteLine(x)
+
+	y -= 1 // 3
+	Console.WriteLine(y)
+
+	z /= y // 3
+	Console.WriteLine(z)
+
+	y *= x // 30
+	Console.WriteLine(y)
+
+	Console.WriteLine("Inrement & decrement")
+	Console.WriteLine(x++) // 10	
+	Console.WriteLine(x) // 11
+	
+	Console.WriteLine(x--) // 11	
+	Console.WriteLine(x) // 10
+
+	Console.WriteLine(++x) // 11
+	Console.WriteLine(x) // 11
+
+	Console.WriteLine(--x) // 10	
+	Console.WriteLine(x) // 10
     }
 }
