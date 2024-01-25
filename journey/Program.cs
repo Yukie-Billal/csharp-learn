@@ -60,5 +60,11 @@ public class Program
 
 	Console.WriteLine(--x) // 10	
 	Console.WriteLine(x) // 10
+
+	string user_input = Console.ReadLine()
+	Console.WriteLine(user_input)
+
+	int input_int = Convert.ToInt32(Console.ReadLine())
+	Console.WriteLine(input_int)
     }
 }
